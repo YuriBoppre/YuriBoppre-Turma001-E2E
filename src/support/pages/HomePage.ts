@@ -25,4 +25,4 @@ export default class HomePage extends BasePage {
     await this.homeElements.getPassField().fill('secret_sauce');
     await this.homeElements.getSubmitButton().click();
   }
-}
+} 
